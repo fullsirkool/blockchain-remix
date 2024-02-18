@@ -6,6 +6,82 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_checkString",
+						"type": "string"
+					}
+				],
+				"name": "compareStrings",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decreaseNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "getAddition",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBytesSize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUserAddressBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "increaseUint8",
 				"outputs": [],
@@ -33,6 +109,19 @@
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myBytes",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "view",
@@ -78,6 +167,45 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "setStr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "setUserAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "str",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "uint8Value",
 				"outputs": [
@@ -85,6 +213,19 @@
 						"internalType": "uint8",
 						"name": "",
 						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "userAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -104,7 +245,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/data-type.sol": "DataType"
+			"contracts/DataType.sol": "DataType"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -118,12 +259,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/data-type.sol": {
-			"keccak256": "0xf1858c721471b286c6f4eeb52a72f773114540d8debdff03cc118ee169f5e40b",
+		"contracts/DataType.sol": {
+			"keccak256": "0x612092171b43a91957a1935caff3fcbfd3ab78a3f374749cc9c2674ae23a9d3c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5cbc79f06fc17706a925710324d3f1b1215d3cab129a0b78528fe029ddbb27fc",
-				"dweb:/ipfs/QmXYK7NhstyGd61SnfeTCf3xb2quZq1etCL89nbrshVMJU"
+				"bzz-raw://1399dfb95a4e2e46e3b77156ad424cccca12a06b78337cc6ff5bcff772861d90",
+				"dweb:/ipfs/QmQnuGhb4CFhnuE7183mLuVKds9a9HSQEK1gZRKwkK85Ey"
 			]
 		}
 	},
